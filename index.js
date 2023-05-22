@@ -8,7 +8,7 @@ let cors = require('cors');
 
 const app = express();
 
-app.use(cors());
+app.use(cors(*));
 app.use(express.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true })); /* bodyParser.urlencoded() is deprecated */
